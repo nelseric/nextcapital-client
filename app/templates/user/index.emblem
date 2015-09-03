@@ -1,0 +1,13 @@
+table.table.table-striped
+  thead
+    tr
+      th Email
+  tbody
+    each users as |user|
+      tr
+        td= user.email
+    else
+      tr
+        td
+          | There are no users
+

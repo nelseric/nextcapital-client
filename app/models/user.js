@@ -4,5 +4,5 @@ var attr = DS.attr;
 export default DS.Model.extend({
   email: attr(),
   password: attr(),
-  todos: DS.hasMany('user')
+  todos: DS.hasMany('todo')
 });
