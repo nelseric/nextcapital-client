@@ -1,1 +1,6 @@
+table
+  tr
+    th Email Address
+    td = id
+
 = outlet
